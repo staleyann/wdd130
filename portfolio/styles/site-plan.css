@@ -273,7 +273,7 @@ nav a:hover {
   justify-content: space-between;
   gap: 40px;
   padding: 20px 40px;
-  align-items: center;
+  align-items: stretch;
 }
 
 .story h1 {
@@ -283,7 +283,7 @@ nav a:hover {
 
 .story-grid img {
   width: 45%;
-  height: 350px;
+  height: 100%;
   object-fit: cover;
   border-radius: 6px;
 }
@@ -359,6 +359,41 @@ footer a:link, nav a:visited {
 footer a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+}
+
+
+
+/* FULL-WIDTH PHOTO STORY SECTION */
+.photo-story {
+  background-image: url("../images/purplehair.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 80px 40px;
+  margin-bottom: 60px;
+}
+
+.photo-story-text {
+  background-color: rgba(0, 0, 0, 0.55);
+  color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.photo-story-text h3 {
+  color: #f1e8e4;
+  margin-top: 25px;
+}
+
+.photo-story-text p {
+  color: #f1e8e4;
+}
+
+.signature {
+  margin-top: 30px;
+  font-style: italic;
 }
 
 
